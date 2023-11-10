@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 03 Nov 2023 14:26:16 -0400
+Source: qtbase-opensource-src
+Binary: qt5-default
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 5.99.99+fake-13ubuntu37
+Distribution: unstable
+Urgency: low
+Maintainer: Equivs Dummy Package Generator <spk@Mach-2.>
+Changed-By: Equivs Dummy Package Generator <spk@Mach-2.>
+Description:
+ qt5-default - Qt 5 development defaults fake package
+Changes:
+ qtbase-opensource-src (5.99.99+fake-13ubuntu37) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 68fe6979c537197d2197f262b063a4bda34e78f1 2176 qt5-default_5.99.99+fake-13ubuntu37_all.deb
+ 51e7db83a60f307105d723a9f1e16ac29a4c505f 5859 qtbase-opensource-src_5.99.99+fake-13ubuntu37_amd64.buildinfo
+Checksums-Sha256:
+ 2ec3c6dcf684fa9d220c2e1dd075b9ad05564986064f399066948837b558b699 2176 qt5-default_5.99.99+fake-13ubuntu37_all.deb
+ 17c44e9ea0f512387e59993f7492bae755b0749f344c306af1bdb6b9ea407463 5859 qtbase-opensource-src_5.99.99+fake-13ubuntu37_amd64.buildinfo
+Files:
+ 06dfb46f74273a6eefdf0d715889ec18 2176 libdevel optional qt5-default_5.99.99+fake-13ubuntu37_all.deb
+ 003b0cf715a015db610fee95f4b07848 5859 libdevel optional qtbase-opensource-src_5.99.99+fake-13ubuntu37_amd64.buildinfo

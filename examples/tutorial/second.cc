@@ -37,7 +37,7 @@ int
 main(int argc, char* argv[])
 {
     bool verbose = true;
-    uint32_t nCsma = 3;
+    uint32_t nCsma = 4;
 
     CommandLine cmd(__FILE__);
     cmd.AddValue("nCsma", "Number of \"extra\" CSMA nodes/devices", nCsma);
@@ -99,7 +99,7 @@ main(int argc, char* argv[])
     echoClient.SetAttribute("PacketSize", UintegerValue(1024));
 
     ApplicationContainer clientApps = echoClient.Install(p2pNodes.Get(0));
-    clientApps.Start(Seconds(2.0));
+    clientApps.Start(Seconds(4.0));
     clientApps.Stop(Seconds(10.0));
 
     Ipv4GlobalRoutingHelper::PopulateRoutingTables();
